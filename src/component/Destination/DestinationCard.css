@@ -1,0 +1,23 @@
+.destination-card{
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    margin: 10px;
+    background-color: aliceblue;
+
+}
+.vehicle-icon{
+    width:60px;
+}
+.vehicle-name{
+
+}
+.vehicle-seat img{
+    height: 20px;
+    
+}
+.vehicle-fare{
+    
+}

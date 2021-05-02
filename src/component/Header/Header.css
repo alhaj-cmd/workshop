@@ -1,0 +1,31 @@
+.header{
+
+}
+.container{
+
+}
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo_img--box{
+
+}
+.logo{
+    height: 20px;
+
+}
+.navber-nav{
+
+}
+.nav-link{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    margin-right: 10px;
+    display:inline-block;
+
+}

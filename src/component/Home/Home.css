@@ -1,0 +1,26 @@
+.home{
+    background: url(../../images/Bg.png) no-repeat center / cover;
+    height: 200px;
+    padding: 100px 20px;
+    
+   
+   
+}
+.card-area{
+    
+  
+    
+    
+}
+.card{
+    width:auto;
+    display:grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-gap:10px;
+    min-height: cals(100vh-100px);
+    
+
+    
+    
+   
+}

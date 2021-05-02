@@ -1,0 +1,10 @@
+.input{
+    display:grid;
+
+    width: 150px;
+}
+.log-are{
+    border:1px solid;
+    padding: 10px;
+    width:200px;
+}

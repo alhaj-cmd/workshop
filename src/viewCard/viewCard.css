@@ -1,0 +1,15 @@
+.view-card{
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+    color: initial;
+    text-align: center;
+}
+
+.view-icon{
+    height: 100px;
+}
+
+.view-name{}

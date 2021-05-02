@@ -1,0 +1,55 @@
+.destination{
+   
+}
+
+.search-box{
+   
+    
+}
+
+.d-content{
+    
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    
+}
+.location_area{
+    margin:0 10px;
+    background: #efefef;
+}
+
+.d-from {
+   margin:0 10px;
+    background: #efefef;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+
+
+.input_type label{
+   
+}
+
+.input_type {
+    font-size: 10px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    outline: 0;
+    display: grid;
+    font-size: 10px;
+}
+
+.btn-primary {
+    cursor: pointer;
+ 
+}
+.map-box{
+    border-radius: 10px;
+
+}
+
+
+

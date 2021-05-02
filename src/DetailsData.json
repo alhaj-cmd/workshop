@@ -1,0 +1,33 @@
+[
+    {
+        "id":0,
+        "name":"Bike",
+        "icon":"https://i.ibb.co/NW7Qxf8/Frame.png",
+        "seat":[2,1,3],
+        "seatRate":15
+    },
+    {
+        "id":1,
+        "name":"Car",
+        "icon":"https://i.ibb.co/FVnN34p/Frame-2.png",
+        "seat":[5,4,6],
+        "seatRate":20
+    },
+    {
+        "id":2,
+        "name":"Bus",
+        "icon":"https://i.ibb.co/9HG6DRH/Frame-1.png",
+        "seat":[8,1,4],
+        "seatRate":35
+    },
+    {
+        "id":3,
+        "name":"Train",
+        "icon":"https://i.ibb.co/zH24wx1/Group.png",
+        "seat":[9,1,7],
+        "seatRate":25
+    }
+]
+
+
+
