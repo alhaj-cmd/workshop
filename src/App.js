@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createContext } from "react";
 import './App.css';
 import { UserProvider } from './User';
 
@@ -14,12 +14,16 @@ import PrivetRoute from "./privetroute/PrivetRoute";
 import Destination from "./component/Destination/Destination";
 import Login from "./component/login/Login";
 
+export const UserContext = createContext();
 
-
-function App() {
+function App(props) {
+  //const [loggedInUser,setLoggedInUser] = useState({});
   const [user,setUser] = useState ({ isLoggedIn: true });
   return (
-    <UserProvider value={[user,setUser]}>
+    
+  //<h1>{loggedInUser.email}</h1> 
+ //<UserContext.provider value= {[user,setUser]} >  
+ <UserProvider value={[user,setUser]}>
       <Router>
         <Header/>
         <Switch>
@@ -34,9 +38,9 @@ function App() {
           </Route>
         </Switch>
       </Router>
-
-    </UserProvider>
-      
+      </UserProvider>
+    
+     
      
     
   );

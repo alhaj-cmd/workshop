@@ -24,3 +24,27 @@ const PrivetRoute = ({ children, ...rest }) => {
 };
 
 export default PrivetRoute;
+
+
+// const PrivetRoute = ({ children, ...rest }) => {
+//     const [user,setUser] =useContext(UserContext);
+//     return (
+//         <Route
+//       {...rest}
+//       render={({ location }) =>
+//       user.email  ? (
+//           children
+//         ) : (
+//           <Redirect
+//             to={{
+//               pathname: "/login",
+//               state: { from: location }
+//             }}
+//           />
+//         )
+//       }
+//     />
+//     )
+// };
+
+// export default PrivetRoute;

@@ -8,3 +8,12 @@
     padding: 10px;
     width:200px;
 }
+.right{
+    width: 200px;
+    border-bottom: 1px solid gray ;
+
+
+}
+.area{
+border:none;
+}
