@@ -18,12 +18,12 @@ export const UserContext = createContext();
 
 function App(props) {
   //const [loggedInUser,setLoggedInUser] = useState({});
-  const [user,setUser] = useState ({ isLoggedIn: true });
+ const [user,setUser] = useState ({ isLoggedIn: false });
   return (
     
   //<h1>{loggedInUser.email}</h1> 
  //<UserContext.provider value= {[user,setUser]} >  
- <UserProvider value={[user,setUser]}>
+ <UserContext.Provider value={[user,setUser]}>
       <Router>
         <Header/>
         <Switch>
@@ -38,7 +38,7 @@ function App(props) {
           </Route>
         </Switch>
       </Router>
-      </UserProvider>
+      </UserContext.Provider>
     
      
      

@@ -11,9 +11,10 @@ if (!firebase.apps.length) {
 } else {
   firebase.app();
 }
-//const [loggedInUser,setLoggedInUser] = useContext(UserContext);
+
 
 const Login = () => {
+  const [loggedInUser,setLoggedInUser] = useContext(UserContext);
     //firebase.initializeApp(firebaseConfig);
     const handleGoogleSignIn = () =>{
       var provider = new firebase.auth.GoogleAuthProvider();
@@ -21,14 +22,15 @@ const Login = () => {
       firebase.auth()
       .signInWithPopup(provider)
       .then((result) => {
+        console.log(result)
         const signInUser = {
           isSignedIn: true,
           name:"",
           email:"",
           password:""
         }
-     // setLoggedInUser(newUserInfo);
-      });
+     setLoggedInUser(signInUser);
+      }).catch(err => console.log(err))
   
     }
     return (
