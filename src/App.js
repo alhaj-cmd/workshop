@@ -17,13 +17,13 @@ import Login from "./component/login/Login";
 export const UserContext = createContext();
 
 function App(props) {
-  //const [loggedInUser,setLoggedInUser] = useState({});
- const [user,setUser] = useState ({ isLoggedIn: false });
+  const [loggedInUser,setLoggedInUser] = useState({});
+// const [user,setUser] = useState ({ isLoggedIn: false });
   return (
     
   //<h1>{loggedInUser.email}</h1> 
  //<UserContext.provider value= {[user,setUser]} >  
- <UserContext.Provider value={[user,setUser]}>
+ <UserContext.Provider value={[loggedInUser,setLoggedInUser]}>
       <Router>
         <Header/>
         <Switch>
